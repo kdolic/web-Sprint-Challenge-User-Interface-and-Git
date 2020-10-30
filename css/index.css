@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/* General Styles */
 * {
     box-sizing: border-box;
 }
@@ -71,6 +72,21 @@ p {
     margin: 0 auto;
 }
 
+/* Nav Bar Styles */
+.navbar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 3% 0 5% 0;
+}
+
+.navbar a {
+    color: #000;
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+/* Top Styles */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +95,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* Middle Styles */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +134,47 @@ p {
     justify-content: center;
 }
 
+/* Box Colors */
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* Bottom Styles */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +188,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styles */
 
 footer {
     width: 100%;
