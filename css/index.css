@@ -75,7 +75,7 @@ p {
 /* Nav Bar Styles */
 .navbar {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
     padding: 3% 0 5% 0;
 }
@@ -174,7 +174,6 @@ p {
 }
 
 /* Bottom Styles */
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -190,7 +189,6 @@ p {
 }
 
 /* Footer Styles */
-
 footer {
     width: 100%;
     background: black;
@@ -208,4 +206,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/*------------ ABOUT STYLES ------------*/
+
+
+/* About Top Styles */
+.about-top-content {
+    margin-bottom: 3.5%;
+    border-bottom: 1.5px dashed black;
+}
+
+.about-text-container {
+    padding: 4% 2%;
+    padding-bottom: 3%;
+}
+
+
+/* About Middle Styles */
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-mid-boxes {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    padding: 2% 0;
+}
+
+.about-mid-boxes h2 {
+    padding-top: 3%;
+}
+
+.about-mid-boxes button {
+    margin-top: 4%;
+    padding: 2% 6%;
+    border-radius: 7px;
+    font-weight: bolder;
+    background-color: #fff;
+}
+
+
+/* About Bottom Styles */
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6%;
+}
+
+.about-bottom {
+    margin-bottom: 5%;
+    padding-left: 3%;
 }
